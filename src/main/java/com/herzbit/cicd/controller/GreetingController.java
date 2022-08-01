@@ -12,7 +12,6 @@ public class GreetingController {
 
     @GetMapping
     public ResponseEntity<String> greetUser() {
-        System.out.println ("Hello World");
         return new ResponseEntity<>("Hello, Welcome to CICD Demo", HttpStatus.OK);
     }
 }
