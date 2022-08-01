@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.herzbit</groupId>
 	<artifactId>cicd</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>cicd</name>
 	<description>Demo project for CICD</description>
 	<properties>
