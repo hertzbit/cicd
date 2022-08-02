@@ -13,10 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreetingController {
 
     private static final Logger LOGGER = LogManager.getLogger(GreetingController.class);
-    
+
     @GetMapping
     public ResponseEntity<String> greetUser() {
         LOGGER.info("Hello World !");
+        System.out.println("Hello");
         return new ResponseEntity<>("Hello, Welcome to CICD Demo", HttpStatus.OK);
     }
 }
