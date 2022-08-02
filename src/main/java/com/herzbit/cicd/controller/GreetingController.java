@@ -17,7 +17,6 @@ public class GreetingController {
     @GetMapping
     public ResponseEntity<String> greetUser() {
         LOGGER.info("Hello World !");
-        System.out.println("Hello");
         return new ResponseEntity<>("Hello, Welcome to CICD Demo", HttpStatus.OK);
     }
 }
